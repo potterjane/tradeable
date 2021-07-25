@@ -67,7 +67,7 @@
 
 These wireframes were created using [Balsamiq](https://balsamiq.com/). 
 
-- [First version](https://github.com/potterjane/peace-of-mind/blob/master/wireframes/pom-wireframes-version-1.pdf) of the mobile, tablet and desktop mockups was made during the design and planning process for this project. 
+- [First version](https://github.com/potterjane/tradeable/blob/main/wireframes/tradeable-wireframes-version-1.pdf) of the mobile, tablet and desktop mockups was made during the design and planning process for this project. 
 
 ### Existing Features
 
