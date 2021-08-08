@@ -4,14 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tradeable</title>
+    <!--Page description-->
+    <meta 
+    name="Description" 
+    content="The Home page of the website, Tradeable, which is a customer to customer (C2C) website for users to sell to or buy products from other users. 
+    On this page, users can register their account, search for products via category or via carousel."/>
+    <title>Tradeable | Where sellers and buyers meet</title>
+    <!--Link to the latest version of Materialize's CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" type="text/css">
+    <!--Link to developer's Font Awesome kit-->
+    <script src="https://kit.fontawesome.com/f0a0897f31.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
+    {% block styles %}
+    {% endblock %}
 </head>
 <body>
 
     <h1>I'm part of the base template!</h1>
-    
+
     {% block content %}
     {% endblock %}
 
+    <!--Link to the latest version of Materialize's JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    {% block scripts %}
+    {% endblock %}
 </body>
 </html>
